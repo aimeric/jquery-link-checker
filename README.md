@@ -59,3 +59,11 @@ animateAnchorLinks : false,
 
 $('a').linkChecker(options);
 ```
+
+## Style (CSS)
+You can simple add CSS for the link classes like:
+```
+.broken-link, .broken-link:hover, .broken-link:active, .broken-link:focus {
+    text-decoration: line-through;
+}
+```
