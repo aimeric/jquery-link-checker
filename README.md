@@ -10,30 +10,45 @@ jQuery Link Checker checks broken links, internal links, external links and anch
 `$('a').linkChecker();`
 
 ## Options
-
 The hostname that will be used for checking internal links
-```hostname : new RegExp(location.host)```
+```
+hostname : new RegExp(location.host)
+```
 
 The class for internal Links
-```internalLinkClass : 'internal-link'```
+```
+internalLinkClass : 'internal-link'
+```
 
 The class for external links
-```externalLinkClass : 'external-link'```
+```
+externalLinkClass : 'external-link'
+```
 
 The class for anchor links
-```anchorLinkClass : 'anchor-link'```
+```
+anchorLinkClass : 'anchor-link'
+```
 
 The class for broken links
-```brokenLinkClass : 'broken-link'```
+```
+brokenLinkClass : 'broken-link'
+```
 
 Animate anchor links with a scroll to
-```animateAnchorLinks : true```
+```
+animateAnchorLinks : true
+```
 
 Add the rel="nofollow" to external links
-```externalLinkNoFollow : true```
+```
+externalLinkNoFollow : true
+```
 
 Add a target="_blank" to external links (opens in new window)
-```externalLinkBlank : true```
+```
+externalLinkBlank : true
+```
 
 ## Example with options
 ```
