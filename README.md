@@ -12,7 +12,6 @@ jQuery Link Checker checks broken links, internal links, external links and anch
 ## Options
 
 The hostname that will be used for checking internal links
-
 `hostname : new RegExp(location.host)`
 
 The class for internal Links
