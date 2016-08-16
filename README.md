@@ -1,5 +1,5 @@
-# Jquery (Broken) Link Checker
-jQuery Link Checker checks broken links, internal links, external links and anchor links
+# jQuery (Broken) Link Checker
+jQuery Link Checker checks broken links, internal links, external links and anchor links. It automatically checks all your links, adds target or nofollow attributes, add a class and more. Please see options for all available settings.
 
 ## Usage
 1. Include jQuery
