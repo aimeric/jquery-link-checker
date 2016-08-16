@@ -2,15 +2,15 @@
 jQuery Link Checker checks broken links, internal links, external links and anchor links. It automatically checks all your links, adds target or nofollow attributes, add a class and more. Please see options for all available settings.
 
 ## Usage
-1. Include jQuery
+1) Include jQuery
 ```
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 ```
-2. Include plugin's code:
+2) Include plugin's code:
 ```
 <script src="/assets/js/link-checker.js"></script>
 ```
-3. Call the plugin:
+3) Call the plugin:
 ```
 $('a').linkChecker();
 ```
