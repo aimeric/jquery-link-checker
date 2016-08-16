@@ -3,11 +3,17 @@ jQuery Link Checker checks broken links, internal links, external links and anch
 
 ## Usage
 1. Include jQuery
-`<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>`
+```
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+```
 2. Include plugin's code:
-`<script src="/assets/js/link-checker.js"></script>`
+```
+<script src="/assets/js/link-checker.js"></script>
+```
 3. Call the plugin:
-`$('a').linkChecker();`
+```
+$('a').linkChecker();
+```
 
 ## Options
 The hostname that will be used for checking internal links
@@ -53,8 +59,8 @@ externalLinkBlank : true
 ## Example with options
 ```
 var options = {
-externalLinkClass : 'outgoing-link',
-animateAnchorLinks : false,
+    externalLinkClass : 'outgoing-link',
+    animateAnchorLinks : false,
 }
 
 $('a').linkChecker(options);
