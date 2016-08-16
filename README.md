@@ -1,7 +1,7 @@
-# jquery-link-checker
+# Jquery (Broken) Link Checker
 jQuery Link Checker checks broken links, internal links, external links and anchor links
 
-# Usage
+## Usage
 1. Include jQuery
 `<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>`
 2. Include plugin's code:
@@ -9,9 +9,10 @@ jQuery Link Checker checks broken links, internal links, external links and anch
 3. Call the plugin:
 `$('a').linkChecker();`
 
-# Options
+## Options
 
 The hostname that will be used for checking internal links
+
 `hostname : new RegExp(location.host)`
 
 The class for internal Links
@@ -35,7 +36,7 @@ Add the rel="nofollow" to external links
 Add a target="_blank" to external links (opens in new window)
 `externalLinkBlank : true`
 
-# Example with options
+## Example with options
 ```
 var options = {
 externalLinkClass : 'outgoing-link',
